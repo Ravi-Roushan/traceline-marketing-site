@@ -29,7 +29,6 @@ jobs:
           node-version: 20
 
       - name: Build site
-        working-directory: ./traceline
         run: node build.js
         # No SITE_BASE_PATH / subpath configuration needed: build.js
         # rewrites every internal href/src to be document-relative
@@ -42,7 +41,7 @@ jobs:
         with:
           # Publish ONLY the built output — src/, build.js, docs/, etc.
           # never reach the live site.
-          path: ./traceline/dist
+          path: ./dist
 
   deploy:
     needs: build
