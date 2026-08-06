@@ -1,0 +1,25 @@
+=== Built site asset sizes (uncompressed) ===
+    71 ./robots.txt
+   290 ./site.webmanifest
+   316 ./assets/favicon.svg
+   400 ./assets/logo.svg
+   621 ./assets/og-default.svg
+   748 ./sitemap.xml
+  4419 ./scripts/main.js
+  6438 ./404.html
+  7616 ./terms.html
+  7708 ./privacy.html
+ 10982 ./contact.html
+ 12641 ./product.html
+ 15156 ./index.html
+ 15305 ./pricing.html
+ 19563 ./styles/main.css
+102274 total
+
+=== Summary ===
+Total files: 15
+Total uncompressed bytes: 102274
+CSS files: 1 (main.css, no framework)
+JS files: 1 (main.js, no framework, deferred)
+Web fonts loaded: 0 (system font stack used deliberately)
+Raster images: 0 (all graphics are inline/linked SVG)

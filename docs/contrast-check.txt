@@ -1,0 +1,13 @@
+=== WCAG AA contrast check for every text/background pairing in main.css ===
+Body text (--ink) on page bg: 16.59:1 vs 4.5:1 (normal text) -> PASS
+Muted text (--text-muted) on page bg: 5.79:1 vs 4.5:1 (normal text) -> PASS
+Links (--accent-dark) on page bg: 6.85:1 vs 4.5:1 (normal text) -> PASS
+Header nav text on header bg: 15.92:1 vs 4.5:1 (normal text) -> PASS
+Footer muted text on header bg: 7.69:1 vs 4.5:1 (normal text) -> PASS
+Amber status text on white card (after fix): 4.67:1 vs 4.5:1 (normal text) -> PASS
+White button text on ink button: 17.79:1 vs 4.5:1 (normal text) -> PASS
+Form error text on white: 6.97:1 vs 4.5:1 (normal text) -> PASS
+Badge text (accent-dark) on tint bg: 6.41:1 vs 4.5:1 (normal text) -> PASS
+
+Note: the amber status text originally shipped at 3.87:1 (FAIL) and was
+darkened from #b5730a to #a36709 to reach 4.67:1 before this build.

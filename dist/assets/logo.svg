@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 48">
+  <path d="M6 34 L24 12 L36 24 L52 6 L66 20" stroke="#0C8F82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <circle cx="66" cy="20" r="4" fill="#0C8F82"/>
+  <text x="82" y="32" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="26" font-weight="700" fill="#101826">Traceline</text>
+</svg>

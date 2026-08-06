@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0F1720" />
+  <title>Traceline — Deploy tracing and incident timelines for engineering teams</title>
+    <meta name="description" content="Traceline connects every deploy to the incidents it causes, so engineering teams spend retros fixing problems instead of reconstructing what happened." />
+    <link rel="canonical" href="https://www.traceline.dev/index.html" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Traceline" />
+    <meta property="og:title" content="Traceline — Deploy tracing and incident timelines for engineering teams" />
+    <meta property="og:description" content="Traceline connects every deploy to the incidents it causes, so engineering teams spend retros fixing problems instead of reconstructing what happened." />
+    <meta property="og:url" content="https://www.traceline.dev/index.html" />
+    <meta property="og:image" content="https://www.traceline.dev/assets/og-default.svg" />
+    <meta property="og:image:alt" content="Traceline — Ship changes. Watch them land." />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Traceline — Deploy tracing and incident timelines for engineering teams" />
+    <meta name="twitter:description" content="Traceline connects every deploy to the incidents it causes, so engineering teams spend retros fixing problems instead of reconstructing what happened." />
+    <meta name="twitter:image" content="https://www.traceline.dev/assets/og-default.svg" />
+    <meta name="twitter:site" content="@tracelinehq" />
+
+  <link rel="preload" as="style" href="styles/main.css" />
+  <link rel="stylesheet" href="styles/main.css" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="manifest" href="site.webmanifest" />
+
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Traceline","legalName":"Traceline Software, Inc.","url":"https://www.traceline.dev","logo":"https://www.traceline.dev/assets/logo.svg","foundingDate":"2021","email":"hello@traceline.dev","telephone":"+1-415-555-0119","address":{"@type":"PostalAddress","streetAddress":"548 Market St, PMB 62109","addressLocality":"San Francisco","addressRegion":"CA","postalCode":"94104","addressCountry":"US"},"sameAs":["https://twitter.com/tracelinehq","https://www.linkedin.com/company/traceline","https://github.com/traceline"]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Does Traceline require an agent on our production servers?","acceptedAnswer":{"@type":"Answer","text":"No. Traceline reads deploy events from your CI/CD provider and metrics from your existing observability stack through read-only API connections. There is no agent to install or maintain on production hosts."}},{"@type":"Question","name":"How long does setup take?","acceptedAnswer":{"@type":"Answer","text":"Most teams connect their first pipeline in under ten minutes using our GitHub Actions or CircleCI integration, and see their first traced deploy the same day."}},{"@type":"Question","name":"Can we try Traceline before buying?","acceptedAnswer":{"@type":"Answer","text":"Yes. Every plan starts with a 14-day free trial with full feature access and no credit card required. You can invite your whole team during the trial."}}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.traceline.dev/index.html"}]}</script>
+</head>
+<body class="page-home">
+  
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <div class="wrap site-header__inner">
+      <a class="brand" href="index.html" aria-label="Traceline home">
+        <svg class="brand__mark" width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true" focusable="false">
+          <path d="M3 20 L9 10 L14 16 L19 6 L25 14" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+          <circle cx="25" cy="14" r="2.3" fill="currentColor"/>
+        </svg>
+        <span class="brand__word">Traceline</span>
+      </a>
+
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="primary-nav"
+        id="nav-toggle"
+      >
+        <span class="visually-hidden">Menu</span>
+        <span class="nav-toggle__bars" aria-hidden="true"></span>
+      </button>
+
+      <nav class="primary-nav" id="primary-nav" aria-label="Primary">
+        <ul class="nav__list">
+          
+        <li class="nav__item">
+          <a class="nav__link" href="product.html">Product</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="pricing.html">Pricing</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="contact.html">Contact</a>
+        </li>
+        </ul>
+        <a class="btn btn--primary btn--nav" href="contact.html#trial">Start free trial</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" tabindex="-1">
+    
+  <section class="hero">
+    <div class="wrap hero__grid">
+      <div class="hero__copy">
+        <p class="eyebrow">Deployment intelligence for engineering teams</p>
+        <h1>Ship changes. Watch them land.</h1>
+        <p class="hero__lede">
+          Traceline connects every deploy to the incident it caused, or didn't,
+          so your team spends retros fixing problems instead of reconstructing
+          what happened.
+        </p>
+        <div class="hero__actions">
+          <a class="btn btn--primary btn--lg" href="contact.html#trial">Start free trial</a>
+          <a class="btn btn--ghost btn--lg" href="product.html">See how it works</a>
+        </div>
+        <p class="hero__meta">14-day trial &middot; no credit card &middot; cancel anytime</p>
+      </div>
+
+      <div class="hero__visual">
+        
+  <figure class="trace" role="group" aria-label="A live trace from a Traceline workspace">
+    <ol class="trace__list">
+      
+      <li class="trace__item trace__item--ok">
+        <span class="trace__time">09:14</span>
+        <span class="trace__dot" aria-hidden="true"></span>
+        <span class="trace__label">checkout-api v2.9.1</span>
+        <span class="trace__status">Deployed clean</span>
+      </li>
+      <li class="trace__item trace__item--watch">
+        <span class="trace__time">09:41</span>
+        <span class="trace__dot" aria-hidden="true"></span>
+        <span class="trace__label">billing-worker v1.4.0</span>
+        <span class="trace__status">Under observation</span>
+      </li>
+      <li class="trace__item trace__item--resolved">
+        <span class="trace__time">10:02</span>
+        <span class="trace__dot" aria-hidden="true"></span>
+        <span class="trace__label">billing-worker v1.4.1</span>
+        <span class="trace__status">Resolved</span>
+      </li>
+      <li class="trace__item trace__item--ok">
+        <span class="trace__time">10:30</span>
+        <span class="trace__dot" aria-hidden="true"></span>
+        <span class="trace__label">web-app v6.2.0</span>
+        <span class="trace__status">Deployed clean</span>
+      </li>
+    </ol>
+    <figcaption class="trace__caption">A live trace from a Traceline workspace</figcaption>
+  </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="section logos" aria-label="Trusted by engineering teams at">
+    <div class="wrap">
+      <p class="logos__label">Trusted by platform teams at growing software companies</p>
+      <ul class="logos__list">
+        <li>Fernwood Systems</li>
+        <li>Basecamp Freight</li>
+        <li>Harlow Data</li>
+        <li>Quietroom</li>
+        <li>Portside Labs</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="features-heading">
+    <div class="wrap">
+      <h2 id="features-heading" class="section__heading">Everything between "merged" and "confirmed working"</h2>
+      <div class="feature-grid">
+        
+          <article class="feature-card" id="tracing">
+            <h3>Deploy tracing</h3>
+            <p>Every deploy is linked to the commits, config changes, and feature flags that shipped with it, so a regression is a two-click investigation instead of a war room.</p>
+            <a class="feature-card__link" href="product.html#tracing">Learn more<span class="visually-hidden"> about Deploy tracing</span> &rarr;</a>
+          </article>
+          <article class="feature-card" id="incidents">
+            <h3>Incident timeline</h3>
+            <p>When something breaks, Traceline reconstructs the sequence of deploys, alerts, and on-call actions automatically, so the postmortem starts written instead of blank.</p>
+            <a class="feature-card__link" href="product.html#incidents">Learn more<span class="visually-hidden"> about Incident timeline</span> &rarr;</a>
+          </article>
+          <article class="feature-card" id="sla">
+            <h3>SLA reporting</h3>
+            <p>Uptime and latency budgets roll up by service and by customer tier, with reports your account team can hand to a customer without editing a spreadsheet first.</p>
+            <a class="feature-card__link" href="product.html#sla">Learn more<span class="visually-hidden"> about SLA reporting</span> &rarr;</a>
+          </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--muted" aria-labelledby="steps-heading">
+    <div class="wrap">
+      <h2 id="steps-heading" class="section__heading">How teams get started</h2>
+      <ol class="steps">
+        
+          <li class="steps__item">
+            <span class="steps__number" aria-hidden="true">01</span>
+            <h3>Connect your pipeline</h3>
+            <p>Point Traceline at GitHub Actions, CircleCI, or your existing CI in about ten minutes. No agents to run on production hosts.</p>
+          </li>
+          <li class="steps__item">
+            <span class="steps__number" aria-hidden="true">02</span>
+            <h3>Watch deploys land</h3>
+            <p>Every release streams into a live trace: build, rollout, error rate, and the first customer-visible signal, in one line.</p>
+          </li>
+          <li class="steps__item">
+            <span class="steps__number" aria-hidden="true">03</span>
+            <h3>Close the loop</h3>
+            <p>Incidents inherit the trace automatically. Your team spends the retro on the fix, not on reconstructing what happened.</p>
+          </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="quote-heading">
+    <div class="wrap">
+      <h2 id="quote-heading" class="visually-hidden">Customer feedback</h2>
+      <blockquote class="quote">
+        <p>&ldquo;Our last two incident reviews took twenty minutes instead of two hours, because the trace was already there. We spent the time on the actual fix.&rdquo;</p>
+        <footer>
+          <cite>Priya Raman, Head of Platform Engineering, Harlow Data</cite>
+        </footer>
+      </blockquote>
+    </div>
+  </section>
+
+  <section class="section section--muted" aria-labelledby="faq-heading">
+    <div class="wrap wrap--narrow">
+      <h2 id="faq-heading" class="section__heading">Common questions</h2>
+      <dl class="faq">
+        
+          <div class="faq__item">
+            <dt>Does Traceline require an agent on our production servers?</dt>
+            <dd>No. Traceline reads deploy events from your CI/CD provider and metrics from your existing observability stack through read-only API connections. There is no agent to install or maintain on production hosts.</dd>
+          </div>
+          <div class="faq__item">
+            <dt>How long does setup take?</dt>
+            <dd>Most teams connect their first pipeline in under ten minutes using our GitHub Actions or CircleCI integration, and see their first traced deploy the same day.</dd>
+          </div>
+          <div class="faq__item">
+            <dt>Can we try Traceline before buying?</dt>
+            <dd>Yes. Every plan starts with a 14-day free trial with full feature access and no credit card required. You can invite your whole team during the trial.</dd>
+          </div>
+      </dl>
+    </div>
+  </section>
+
+  <section class="section cta-band" aria-labelledby="cta-heading">
+    <div class="wrap cta-band__inner">
+      <h2 id="cta-heading">Trace your next deploy in ten minutes</h2>
+      <p>No credit card. Full features. Cancel whenever you like.</p>
+      <a class="btn btn--primary btn--lg" href="contact.html#trial">Start free trial</a>
+    </div>
+  </section>
+
+  </main>
+  
+  <footer class="site-footer">
+    <div class="wrap footer__inner">
+      <div class="footer__brand">
+        <a class="brand" href="index.html" aria-label="Traceline home">
+          <svg class="brand__mark" width="24" height="24" viewBox="0 0 28 28" fill="none" aria-hidden="true" focusable="false">
+            <path d="M3 20 L9 10 L14 16 L19 6 L25 14" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+            <circle cx="25" cy="14" r="2.3" fill="currentColor"/>
+          </svg>
+          <span class="brand__word">Traceline</span>
+        </a>
+        <address class="footer__address">
+          548 Market St, PMB 62109<br />
+          San Francisco, CA 94104<br />
+          <a href="mailto:hello@traceline.dev">hello@traceline.dev</a>
+        </address>
+      </div>
+
+      
+      <div class="footer__col">
+        <h2 class="footer__heading">Product</h2>
+        <ul class="footer__list">
+          <li><a href="product.html#tracing">Deploy tracing</a></li><li><a href="product.html#incidents">Incident timeline</a></li><li><a href="product.html#sla">SLA reporting</a></li><li><a href="pricing.html">Pricing</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h2 class="footer__heading">Company</h2>
+        <ul class="footer__list">
+          <li><a href="contact.html">Contact sales</a></li><li><a href="mailto:support@traceline.dev">Support</a></li><li><a href="#">Status</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h2 class="footer__heading">Legal</h2>
+        <ul class="footer__list">
+          <li><a href="privacy.html">Privacy policy</a></li><li><a href="terms.html">Terms of service</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="wrap footer__bottom">
+      <p>&copy; 2026 Traceline Software, Inc.. All rights reserved.</p>
+      <ul class="footer__social" aria-label="Social media">
+        <li><a href="https://twitter.com/tracelinehq">Twitter</a></li>
+        <li><a href="https://www.linkedin.com/company/traceline">LinkedIn</a></li>
+        <li><a href="https://github.com/traceline">GitHub</a></li>
+      </ul>
+    </div>
+  </footer>
+  <script src="scripts/main.js" defer></script>
+</body>
+</html>

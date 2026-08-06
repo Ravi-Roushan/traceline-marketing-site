@@ -1,0 +1,11 @@
+{
+  "name": "traceline-marketing-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Hand-built multi-page marketing site for Traceline (fictional B2B deployment-intelligence software). No page builder, no framework runtime.",
+  "scripts": {
+    "build": "node build.js",
+    "serve": "npx serve dist"
+  },
+  "license": "UNLICENSED"
+}

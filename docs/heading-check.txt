@@ -1,0 +1,87 @@
+=== Heading sequence per page (no skipped levels) ===
+index.html:
+  h1 Ship changes. Watch them land.
+  h2 Everything between "merged" and "confirmed working"
+  h3 Deploy tracing
+  h3 Incident timeline
+  h3 SLA reporting
+  h2 How teams get started
+  h3 Connect your pipeline
+  h3 Watch deploys land
+  h3 Close the loop
+  h2 Customer feedback
+  h2 Common questions
+  h2 Trace your next deploy in ten minutes
+  h2 Product
+  h2 Company
+  h2 Legal
+  Result: OK, no skipped levels
+
+product.html:
+  h1 One trace, from commit to customer impact
+  h2 Deploy tracing
+  h2 Incident timeline
+  h2 SLA reporting
+  h2 Works with what you already run
+  h2 See your own deploys traced
+  h2 Product
+  h2 Company
+  h2 Legal
+  Result: OK, no skipped levels
+
+pricing.html:
+  h1 Straightforward pricing, per service
+  h2 Pricing plans
+  h3 Starter
+  h3 Team
+  h3 Scale
+  h2 Compare plans
+  h2 Pricing questions
+  h2 Start tracing deploys today
+  h2 Product
+  h2 Company
+  h2 Legal
+  Result: OK, no skipped levels
+
+contact.html:
+  h1 Talk to the team, or start your trial
+  h2 Send us a message
+  h2 Other ways to reach us
+  h3 Sales
+  h3 Support
+  h3 Phone
+  h3 Office
+  h2 Product
+  h2 Company
+  h2 Legal
+  Result: OK, no skipped levels
+
+privacy.html:
+  h1 Privacy policy
+  h2 What we collect
+  h2 How we use it
+  h2 Data retention
+  h2 Contact
+  h2 Product
+  h2 Company
+  h2 Legal
+  Result: OK, no skipped levels
+
+terms.html:
+  h1 Terms of service
+  h2 1. Using Traceline
+  h2 2. Accounts and billing
+  h2 3. Service availability
+  h2 Contact
+  h2 Product
+  h2 Company
+  h2 Legal
+  Result: OK, no skipped levels
+
+404.html:
+  h1 We couldn't trace this page
+  h2 Product
+  h2 Company
+  h2 Legal
+  Result: OK, no skipped levels
+

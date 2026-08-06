@@ -1,0 +1,33 @@
+=== JSON-LD structured data validation per page ===
+index.html:
+  block 0: valid JSON, @type = Organization
+  block 1: valid JSON, @type = FAQPage
+  block 2: valid JSON, @type = BreadcrumbList
+
+product.html:
+  block 0: valid JSON, @type = Organization
+  block 1: valid JSON, @type = SoftwareApplication
+  block 2: valid JSON, @type = BreadcrumbList
+
+pricing.html:
+  block 0: valid JSON, @type = Organization
+  block 1: valid JSON, @type = FAQPage
+  block 2: valid JSON, @type = Product
+  block 3: valid JSON, @type = BreadcrumbList
+
+contact.html:
+  block 0: valid JSON, @type = Organization
+  block 1: valid JSON, @type = ContactPage
+  block 2: valid JSON, @type = BreadcrumbList
+
+privacy.html:
+  block 0: valid JSON, @type = Organization
+  block 1: valid JSON, @type = BreadcrumbList
+
+terms.html:
+  block 0: valid JSON, @type = Organization
+  block 1: valid JSON, @type = BreadcrumbList
+
+404.html:
+  block 0: valid JSON, @type = Organization
+

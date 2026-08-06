@@ -1,0 +1,29 @@
+=== Internal link/asset resolution check (relative-path fix, post GH-Pages-subpath simulation) ===
+121 relative internal links/assets checked across 7 pages.
+Result: all resolve.
+
+=== Simulated GitHub Pages subpath test (site copied to /my-repo/ and served) ===
+index.html at /my-repo/index.html: 200
+styles/main.css resolved relatively from /my-repo/index.html: 200
+product.html resolved relatively from /my-repo/index.html: 200
+(reproduced by: cp -r dist/* /tmp/x/my-repo/ && serve /tmp/x && curl /my-repo/... )
+
+=== 404.html link check: must be domain-absolute, not relative ===
+href="https://github.com/traceline"
+href="https://twitter.com/tracelinehq"
+href="https://www.linkedin.com/company/traceline"
+href="https://www.traceline.dev/404.html"
+href="https://www.traceline.dev/assets/favicon.svg"
+href="https://www.traceline.dev/contact.html"
+href="https://www.traceline.dev/contact.html#trial"
+href="https://www.traceline.dev/index.html"
+href="https://www.traceline.dev/pricing.html"
+href="https://www.traceline.dev/privacy.html"
+href="https://www.traceline.dev/product.html"
+href="https://www.traceline.dev/product.html#incidents"
+href="https://www.traceline.dev/product.html#sla"
+href="https://www.traceline.dev/product.html#tracing"
+href="https://www.traceline.dev/site.webmanifest"
+href="https://www.traceline.dev/styles/main.css"
+href="https://www.traceline.dev/terms.html"
+src="https://www.traceline.dev/scripts/main.js"
